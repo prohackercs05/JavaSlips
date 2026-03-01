@@ -1,0 +1,11 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "commons-logging-1.2.jar",
+    "mysql-connector-j-9.6.0.jar",
+    "spring-beans-5.3.20.jar",
+    "spring-context-5.3.20.jar",
+    "spring-core-5.3.20.jar",
+    "spring-expression-5.3.20.jar"
+  ]
+}
