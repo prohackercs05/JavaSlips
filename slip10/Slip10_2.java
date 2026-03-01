@@ -36,7 +36,7 @@ public class Slip10_2 extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "root", "");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb", "postgres", "root");
             Statement st = con.createStatement();
 
             // Fetch only the first record
